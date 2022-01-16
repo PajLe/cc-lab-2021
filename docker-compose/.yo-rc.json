@@ -1,0 +1,11 @@
+{
+  "generator-jhipster": {
+    "appsFolders": ["gateway", "invoice", "notification", "productorder"],
+    "directoryPath": "../",
+    "gatewayType": "SpringCloudGateway",
+    "clusteredDbApps": ["notification"],
+    "monitoring": "prometheus",
+    "serviceDiscoveryType": "eureka",
+    "jwtSecretKey": "ZTVkMTY4N2U2MTMyMjZjZWM1YWVjOTU1OGEzMjE3ZjM3YmM4NGNkYTg3YWU1NzMwYTNjZDczMzg4OWUzY2JkYmE1NDVmYzJiNzZjZjE3OTYxYjc1OTQzNWNiOTVkODRjYzg0OA=="
+  }
+}

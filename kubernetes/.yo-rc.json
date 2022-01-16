@@ -1,0 +1,17 @@
+{
+  "generator-jhipster": {
+    "appsFolders": ["gateway", "invoice", "notification", "productorder"],
+    "directoryPath": "../",
+    "clusteredDbApps": ["notification"],
+    "serviceDiscoveryType": "eureka",
+    "jwtSecretKey": "YmU2ZmVhNzAxMDlmODQ3NGFkMTkyMDZmNDUyNWRkOWNkNTM0ZTYyNjQzYTgzODkzYTEzZGMxZjY1ZTAyZGI5NzFkMDQyZjM3Y2YyODAzNjE0YmIyNzQ3ZjY5ODI5ZDRjYjNjMg==",
+    "dockerRepositoryName": "pajle",
+    "dockerPushCommand": "docker push",
+    "kubernetesNamespace": "store",
+    "kubernetesServiceType": "LoadBalancer",
+    "kubernetesUseDynamicStorage": false,
+    "ingressDomain": "",
+    "monitoring": "prometheus",
+    "istio": false
+  }
+}

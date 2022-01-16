@@ -1,0 +1,21 @@
+apiVersion: skaffold/v1
+kind: Config
+build:
+  artifacts:
+    - image: pajle/gateway
+      context: ../gateway
+      jib: {}
+    - image: pajle/invoice
+      context: ../invoice
+      jib: {}
+    - image: pajle/notification
+      context: ../notification
+      jib: {}
+    - image: pajle/productorder
+      context: ../productorder
+      jib: {}
+  tagPolicy:
+    envTemplate:
+      template: "{{.IMAGE_NAME}}:latest"
+deploy:
+  kustomize: {}
